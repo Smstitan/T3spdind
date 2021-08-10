@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="#ffffff">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageview"
+            android:layout_width="213dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            app:cardCornerRadius="60dp">
+
+
+            <Imageview
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageview1">
+            </Imageview>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/hero_name"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginBottom="26dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:layout_toRightOf="@+id/imageview"
+            android:textColor="#ffffff">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
